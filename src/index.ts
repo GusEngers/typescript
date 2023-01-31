@@ -47,3 +47,24 @@ let miProducto: Producto = {
 	precio: 450,
 };
 console.log('Este es mi producto', miProducto);
+
+// Condicionales:
+
+// Ternarios
+console.log(10 + 5 === 15 ? 'Es igual a 15' : 'No es iguala 15');
+
+// If's
+if (10 + 5 === 15) {
+	console.log('10 + 5 es igual a 15.. en el if!');
+} else {
+	console.log('Otro resultado');
+}
+
+// Switch
+switch (10 + 5) {
+	case 15:
+		console.log('Es igual a 15... en el switch!');
+		break;
+	default:
+		break;
+}
